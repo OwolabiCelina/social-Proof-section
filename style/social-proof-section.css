@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=League+Spartan:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+body{
+    background-color: white;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 30px 0 30px;
+    column-gap: 20px;
+}
+.header-text p{
+    font-size: 15px;
+}
+.header-text{
+    font-family: 'League Spartan';
+}
+#reviews-text{
+    color: rgb(94, 32, 94);
+    /* color: hsl(303, 10%, 53%); */
+    font-size: 45px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.stars{
+    display: flex;
+    /* background-color: aqua; */
+    background-color: hsl(300, 24%, 96%);
+    padding: 20px;
+    margin: 18px;
+    border-radius: 10px;
+}
+.box-heading{
+    padding-left: 15px;
+}
+#box-reviews{
+    top: 20px;
+    margin: 40px;
+    padding: 30px;
+    font-family: 'League Spartan';
+    font-size: 20px;
+}
+.stars img{
+    display: inline;
+    line-height: 4.0%;
+    
+}
+.stars h4{
+    display: inline;
+}
+
+#second-star{
+    position: relative; 
+    left: 30px;
+ 
+}
+#third-star{
+    position: relative;
+    left: 60px;
+}
+.sec-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.verified-buyer{
+    background-color: rgb(94, 32, 94);
+    font-family: 'League Spartan';
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 320px;
+    min-height: 200px   ;
+    position: relative;
+    text-decoration: none;
+   
+}
+.pics{
+    width: 40px;
+    position: absolute;
+    border-radius: 20px;
+    display: inline-block;
+}
+.status{
+    display: inline-block;
+    padding-left: 60px;
+    margin-top: 6px;
+}
+.customer-name{
+    list-style-type: none;
+}
+.customer-tag{
+    color: hsl(333, 80%, 67%);
+    list-style-type: none;
+}
+.header-text-box{
+    display: flex;
+}
+.verified-buyer p{
+    text-align:justify;
+    line-height: 1.55;
+}
+#first-cus-box{
+    bottom: 20px;
+}
+#third-cus-box{
+    top: 25px;
+}
+
+/* @media screen and (max-width: 1186px){
+body{
+    background-color: red;
+}
+} */
